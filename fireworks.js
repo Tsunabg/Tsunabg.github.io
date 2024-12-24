@@ -231,7 +231,7 @@ function toggleMenu(toggle) {
 
 document.getElementById('download-btn').addEventListener('click', function() {
   const link = document.createElement('a');
-  link.href = 'doc/Carta.pdf'; // Aquí debes poner la ruta del archivo que deseas descargar
+  link.href = 'Carta.pdf'; // Aquí debes poner la ruta del archivo que deseas descargar
   link.download = 'carta.pdf'; // Aquí puedes especificar el nombre con el que se descargará el archivo
   link.click();
 });
